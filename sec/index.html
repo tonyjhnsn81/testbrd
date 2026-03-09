@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadoola Casino Poker: Giochi Live e Online</title>
+    <meta name="description" content="Scopri lofferta di Cadoola Casino Poker. Gioca a Texas Holdem, video poker e tavoli live. Sicurezza, bonus di benvenuto e pagamenti veloci. Iscriviti ora!">
+    
+    
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Cadoola Casino Poker: Giochi Live e Online",
+      "description": "Scopri lofferta di Cadoola Casino Poker. Gioca a Texas Holdem, video poker e tavoli live. Sicurezza, bonus di benvenuto e pagamenti veloci. Iscriviti ora!",
+      "datePublished": "2026-03-09"
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a', // slate-900
+                            darker: '#020617', // slate-950
+                            accent: '#f43f5e', // rose-500
+                            accentHover: '#e11d48', // rose-600
+                            gradientStart: '#ec4899', // pink-500
+                            gradientEnd: '#f97316', // orange-500
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Poppins', 'system-ui', 'sans-serif'],
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-glow': 'pulseGlow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        pulseGlow: {
+                            '0%, 100%': { opacity: 1, boxShadow: '0 0 20px 0px rgba(244, 63, 94, 0.5)' },
+                            '50%': { opacity: .8, boxShadow: '0 0 30px 10px rgba(244, 63, 94, 0.8)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #020617;
+            color: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4, .font-display {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        /* Decorative Background Orbs */
+        .bg-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.4;
+        }
+        .orb-1 { top: -10%; left: -10%; width: 50vw; height: 50vw; background: radial-gradient(circle, #ec4899, transparent 70%); }
+        .orb-2 { top: 20%; right: -20%; width: 60vw; height: 60vw; background: radial-gradient(circle, #8b5cf6, transparent 70%); }
+        .orb-3 { bottom: -10%; left: 20%; width: 40vw; height: 40vw; background: radial-gradient(circle, #f97316, transparent 70%); }
+
+        /* Game Card Styles */
+        .game-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(244, 63, 94, 0.3);
+        }
+        .game-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.85);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            backdrop-filter: blur(4px);
+        }
+        .game-card:hover .game-overlay {
+            opacity: 1;
+        }
+
+        /* Connecting Line for Bonus Steps */
+        .step-line {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            right: 10%;
+            height: 4px;
+            background: linear-gradient(90deg, #ec4899, #f97316);
+            z-index: 0;
+            transform: translateY(-50%);
+        }
+        @media (max-width: 768px) {
+            .step-line { display: none; }
+        }
+    </style>
+
+<link rel="canonical" href="https://cadoola.casino/cadoola-casino-poker/" />
+<link rel="alternate" href="https://cadoola.casino/cadoola-casino-poker/" hreflang="x-default" />
+<link rel="alternate" href="https://cadoola.casino/cadoola-casino-poker/" hreflang="it" />
+
+<meta property="og:title" content="Cadoola Casino Poker: Giochi Live e Online" />
+<meta property="og:description" content="Scopri lofferta di Cadoola Casino Poker. Gioca a Texas Holdem, video poker e tavoli live. Sicurezza, bonus di benvenuto e pagamenti veloci. Iscriviti ora!" />
+<meta property="og:url" content="https://testbrd/sec/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="testbrd" />
+<meta property="og:locale" content="it" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://testbrd/sec/"
+  },
+  "headline": "Cadoola Casino Poker: Giochi Live e Online",
+  "description": "Scopri lofferta di Cadoola Casino Poker. Gioca a Texas Holdem, video poker e tavoli live. Sicurezza, bonus di benvenuto e pagamenti veloci. Iscriviti ora!",
+  "author": {
+    "@type": "Person",
+    "name": "Daniel Novak"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "testbrd",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://testbrd/favicon.ico"
+    }
+  },
+  "datePublished": "2026-03-09",
+  "dateModified": "2026-03-09"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quali varianti di poker sono disponibili sulla piattaforma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La selezione include Casino Hold'em, Caribbean Stud, Three Card Poker, video poker in multiple versioni (Jacks or Better, Deuces Wild) e tavoli live con croupier reali. Ogni variante offre regole specifiche e limiti di puntata adatti a diversi livelli di esperienza."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I bonus di benvenuto si applicano ai giochi di carte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì, ma con limitazioni importanti. I giochi da tavolo contribuiscono tipicamente solo al 10-20% al completamento dei requisiti di scommessa rispetto al 100% delle slot. È essenziale leggere attentamente i termini prima di accettare qualsiasi promozione per comprendere l'impatto effettivo sul proprio stile di gioco."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo richiedono i prelievi dopo una vincita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I tempi variano in base al metodo scelto. Le criptovalute vengono processate entro 24 ore, mentre carte di credito e bonifici bancari richiedono 3-5 giorni lavorativi. I giocatori VIP beneficiano di elaborazione prioritaria con tempi ridotti. La prima richiesta richiede verifica dell'identità che può aggiungere 1-2 giorni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come posso verificare che i giochi siano equi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tutti i giochi RNG sono certificati da laboratori indipendenti che testano l'algoritmo di generazione casuale. Le percentuali di ritorno al giocatore (RTP) sono pubblicate per ogni gioco. I tavoli live trasmettono in diretta ogni azione del dealer, eliminando qualsiasi possibilità di manipolazione grazie alla tecnologia OCR che legge fisicamente le carte distribuite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso giocare da dispositivo mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Assolutamente sì. La piattaforma è completamente ottimizzata per smartphone e tablet, sia iOS che Android. Non è necessario scaricare app dedicate poiché tutti i giochi funzionano attraverso browser web mobile. L'interfaccia si adatta automaticamente alle dimensioni dello schermo mantenendo piena funzionalità e qualità grafica."
+      }
+    }
+  ]
+}
+</script>
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//statistic.webmatostat.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '94']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+</head>
+<body class="antialiased relative min-h-screen flex flex-col">
+
+    <!-- Ambient Background -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-[-1]">
+        <div class="bg-orb orb-1 animate-float" style="animation-delay: 0s;"></div>
+        <div class="bg-orb orb-2 animate-float" style="animation-delay: 2s;"></div>
+        <div class="bg-orb orb-3 animate-float" style="animation-delay: 4s;"></div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 w-full z-50 bg-brand-darker/80 backdrop-blur-md border-b border-white/10">
+        <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+            <!-- Logo (Text based) -->
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-gradientStart to-brand-gradientEnd flex items-center justify-center shadow-lg group-hover:shadow-brand-accent/50 transition-all">
+                    <i data-lucide="spade" class="text-white w-6 h-6"></i>
+                </div>
+                <span class="font-display font-bold text-2xl tracking-tight text-white brand-logo-text"></span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-8 font-medium text-slate-300">
+                <a href="#" class="hover:text-white transition-colors">Casinò</a>
+                <a href="#" class="hover:text-white transition-colors">Casinò Live</a>
+                <a href="#" class="hover:text-white transition-colors">Promozioni</a>
+                <a href="#" class="hover:text-white transition-colors flex items-center gap-1">
+                    <i data-lucide="trophy" class="w-4 h-4 text-yellow-400"></i> Tornei
+                </a>
+            </nav>
+
+            <!-- Actions -->
+            <div class="flex items-center gap-3">
+                <a href="#" class="brand-cta hidden sm:flex px-5 py-2.5 rounded-lg font-semibold text-slate-200 hover:text-white hover:bg-white/5 transition-all">
+                    Accedi
+                </a>
+                <a href="#" class="brand-cta px-6 py-2.5 rounded-lg font-bold text-white bg-gradient-to-r from-brand-gradientStart to-brand-gradientEnd hover:from-brand-accentHover hover:to-orange-600 shadow-lg shadow-brand-accent/30 transition-all transform hover:scale-105">
+                    Registrati
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-20">
+        
+        <!-- Hero Section -->
+        <section class="relative pt-16 pb-24 lg:pt-24 lg:pb-32 overflow-hidden">
+            <div class="container mx-auto px-4 relative z-10 text-center">
+                
+                <!-- Trust Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-slate-300 mb-8 backdrop-blur-sm">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+                    <span>2026 VERIFICATO E AUTORIZZATO</span>
+                </div>
+
+                <!-- Headline -->
+                <h1 class="font-display text-5xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-slate-400 mb-6 leading-tight max-w-5xl mx-auto">
+                    cadoola casino poker
+                </h1>
+                
+                <p class="text-xl lg:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto font-light">
+                    Scopri lofferta di Cadoola Casino Poker. Gioca a Texas Holdem, video poker e tavoli live. Sicurezza, bonus di benvenuto e pagamenti veloci. Iscriviti ora!
+                </p>
+
+                <!-- Bonus Steps Visual (Recreating reference UI without images) -->
+                <div class="relative max-w-5xl mx-auto mb-16 py-8">
+                    <div class="step-line"></div>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
+                        
+                        <!-- Step 1 -->
+                        <div class="flex flex-col items-center">
+                            <div class="w-24 h-24 rounded-full bg-brand-darker border-4 border-brand-accent flex items-center justify-center shadow-[0_0_30px_rgba(244,63,94,0.4)] mb-4 relative">
+                                <span class="font-display text-5xl font-black text-white">1</span>
+                                <div class="absolute -top-3 -right-3 bg-gradient-to-r from-yellow-400 to-yellow-600 text-xs font-bold px-2 py-1 rounded-full text-brand-darker transform rotate-12">
+                                    +100 FS
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1">120%</h3>
+                            <p class="text-slate-400">fino a 240€</p>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="flex flex-col items-center">
+                            <div class="w-24 h-24 rounded-full bg-brand-darker border-4 border-blue-500 flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-4">
+                                <span class="font-display text-5xl font-black text-white">2</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1">110%</h3>
+                            <p class="text-slate-400">fino a 220€</p>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex flex-col items-center">
+                            <div class="w-24 h-24 rounded-full bg-brand-darker border-4 border-purple-500 flex items-center justify-center shadow-[0_0_30px_rgba(168,85,247,0.4)] mb-4 relative">
+                                <span class="font-display text-5xl font-black text-white">3</span>
+                                <div class="absolute -top-3 -right-3 bg-gradient-to-r from-yellow-400 to-yellow-600 text-xs font-bold px-2 py-1 rounded-full text-brand-darker transform rotate-12">
+                                    +150 FS
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1">100%</h3>
+                            <p class="text-slate-400">fino a 100€</p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="flex flex-col items-center">
+                            <div class="w-24 h-24 rounded-full bg-brand-darker border-4 border-emerald-500 flex items-center justify-center shadow-[0_0_30px_rgba(16,185,129,0.4)] mb-4">
+                                <span class="font-display text-5xl font-black text-white">4</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1">120%</h3>
+                            <p class="text-slate-400">fino a 240€</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Primary CTA -->
+                <div class="flex flex-col items-center">
+                    <a href="#" class="brand-cta inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl font-display font-bold text-2xl text-white bg-gradient-to-r from-brand-gradientStart to-brand-gradientEnd hover:from-brand-accentHover hover:to-orange-600 transition-all transform hover:-translate-y-1 animate-pulse-glow">
+                        Ottieni il Bonus Ora
+                        <i data-lucide="arrow-right" class="w-6 h-6"></i>
+                    </a>
+                    <p class="mt-4 text-sm text-slate-500">Si applicano Termini e Condizioni. Gioco riservato ai maggiorenni.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Quick Benefits (USPs) -->
+        <section class="py-12 bg-white/5 border-y border-white/5 backdrop-blur-sm">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-darker flex items-center justify-center border border-white/10 text-brand-accent">
+                            <i data-lucide="zap" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Prelievi Rapidi</h4>
+                            <p class="text-sm text-slate-400">Vincite pagate in pochi minuti</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-darker flex items-center justify-center border border-white/10 text-emerald-400">
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Sicurezza Garantita</h4>
+                            <p class="text-sm text-slate-400">Crittografia SSL avanzata</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-darker flex items-center justify-center border border-white/10 text-blue-400">
+                            <i data-lucide="headphones" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Supporto 24/7</h4>
+                            <p class="text-sm text-slate-400">Assistenza sempre disponibile</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-darker flex items-center justify-center border border-white/10 text-purple-400">
+                            <i data-lucide="gift" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Programma VIP</h4>
+                            <p class="text-sm text-slate-400">Ricompense esclusive per te</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Games Showcase (Text & CSS Only) -->
+        <section class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
+                    <div>
+                        <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-2">I Giochi Più Popolari</h2>
+                        <p class="text-slate-400">Esplora la nostra vasta selezione di slot, tavoli live e poker.</p>
+                    </div>
+                    <div class="flex gap-2 overflow-x-auto pb-2 w-full md:w-auto hide-scrollbar">
+                        <button class="px-4 py-2 rounded-full bg-brand-accent text-white font-medium whitespace-nowrap">Tutti i Giochi</button>
+                        <button class="px-4 py-2 rounded-full bg-white/5 text-slate-300 hover:bg-white/10 font-medium whitespace-nowrap transition-colors">Nuovi</button>
+                        <button class="px-4 py-2 rounded-full bg-white/5 text-slate-300 hover:bg-white/10 font-medium whitespace-nowrap transition-colors">Slot</button>
+                        <button class="px-4 py-2 rounded-full bg-white/5 text-slate-300 hover:bg-white/10 font-medium whitespace-nowrap transition-colors">Poker</button>
+                    </div>
+                </div>
+
+                <!-- Games Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+                    
+                    <!-- Game 1: Olympus Theme -->
+                    <div class="game-card aspect-[4/3] bg-gradient-to-br from-indigo-900 to-purple-900 border border-white/10 flex flex-col items-center justify-center p-4 text-center group">
+                        <div class="absolute top-2 left-2 bg-yellow-500 text-brand-darker text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Popolare</div>
+                        <i data-lucide="zap" class="w-12 h-12 text-yellow-400 mb-3 drop-shadow-[0_0_10px_rgba(250,204,21,0.8)]"></i>
+                        <h3 class="font-display font-black text-xl text-white uppercase tracking-widest" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Gates of<br>Olympus</h3>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-6 py-3 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors">
+                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>Gioca Ora</a>
+                        </div>
+                    </div>
+
+                    <!-- Game 2: Crazy Time Theme -->
+                    <div class="game-card aspect-[4/3] bg-gradient-to-br from-pink-600 to-orange-600 border border-white/10 flex flex-col items-center justify-center p-4 text-center group">
+                        <div class="absolute top-2 left-2 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Live</div>
+                        <i data-lucide="dices" class="w-12 h-12 text-white mb-3 drop-shadow-md"></i>
+                        <h3 class="font-display font-black text-2xl text-yellow-300 uppercase transform -rotate-3" style="text-shadow: 3px 3px 0px #c026d3;">CRAZY<br>TIME</h3>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-6 py-3 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors">
+                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>Gioca Ora</a>
+                        </div>
+                    </div>
+
+                    <!-- Game 3: Sweet Theme -->
+                    <div class="game-card aspect-[4/3] bg-gradient-to-br from-rose-400 to-pink-500 border border-white/10 flex flex-col items-center justify-center p-4 text-center group">
+                        <i data-lucide="cherry" class="w-12 h-12 text-red-600 mb-3 drop-shadow-md"></i>
+                        <h3 class="font-display font-bold text-xl text-white">Sweet<br>Bonanza</h3>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-6 py-3 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors">
+                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>Gioca Ora</a>
+                        </div>
+                    </div>
+
+                    <!-- Game 4: Book Theme -->
+                    <div class="game-card aspect-[4/3] bg-gradient-to-br from-amber-900 to-yellow-900 border border-white/10 flex flex-col items-center justify-center p-4 text-center group">
+                        <i data-lucide="book" class="w-12 h-12 text-yellow-500 mb-3 drop-shadow-md"></i>
+                        <h3 class="font-display font-serif italic font-bold text-xl text-yellow-500">Book of<br>Dead</h3>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-6 py-3 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors">
+                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>Gioca Ora</a>
+                        </div>
+                    </div>
+
+                    <!-- Game 5: Poker Theme (Keyword focus) -->
+                    <div class="game-card aspect-[4/3] bg-gradient-to-br from-emerald-900 to-teal-900 border border-white/10 flex flex-col items-center justify-center p-4 text-center group md:col-span-2 lg:col-span-2">
+                        <div class="flex gap-2 mb-3">
+                            <div class="w-10 h-14 bg-white rounded border border-gray-300 flex items-center justify-center shadow-lg transform -rotate-12">
+                                <span class="text-red-600 font-bold text-lg">A♥</span>
+                            </div>
+                            <div class="w-10 h-14 bg-white rounded border border-gray-300 flex items-center justify-center shadow-lg transform rotate-6 translate-y-2">
+                                <span class="text-black font-bold text-lg">A♠</span>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-2xl text-white uppercase tracking-wide">Texas Hold'em Poker</h3>
+                        <p class="text-emerald-300 text-sm mt-1">Tavoli Live & Tornei</p>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-8 py-4 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors text-lg">
+                                <i data-lucide="play" class="w-5 h-5 fill-current"></i> Siediti al Tavolo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Game 6: Roulette -->
+                    <div class="game-card aspect-[4/3] bg-gradient-to-br from-red-900 to-slate-900 border border-white/10 flex flex-col items-center justify-center p-4 text-center group">
+                        <i data-lucide="circle-dashed" class="w-12 h-12 text-red-500 mb-3 drop-shadow-md"></i>
+                        <h3 class="font-display font-bold text-xl text-white">Lightning<br>Roulette</h3>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-6 py-3 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors">
+                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>Gioca Ora</a>
+                        </div>
+                    </div>
+
+                     <!-- Game 7: Classic Slot -->
+                     <div class="game-card aspect-[4/3] bg-gradient-to-br from-blue-900 to-cyan-900 border border-white/10 flex flex-col items-center justify-center p-4 text-center group">
+                        <i data-lucide="gem" class="w-12 h-12 text-cyan-400 mb-3 drop-shadow-md"></i>
+                        <h3 class="font-display font-bold text-xl text-white">Starburst</h3>
+                        
+                        <div class="game-overlay">
+                            <a href="#" class="brand-cta px-6 py-3 rounded-full bg-brand-accent text-white font-bold flex items-center gap-2 hover:bg-brand-accentHover transition-colors">
+                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>Gioca Ora</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="text-center mt-10">
+                    <a href="#" class="brand-cta inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 text-white font-semibold hover:bg-white/5 transition-colors">
+                        Mostra Altri Giochi <i data-lucide="chevron-down" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Massive Mid-Page CTA (Replacing Registration Form Image) -->
+        <section class="py-20 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-gradientStart/20 to-brand-gradientEnd/20"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl mx-auto bg-brand-darker/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-16 text-center shadow-2xl shadow-brand-accent/20">
+                    <i data-lucide="crown" class="w-16 h-16 text-yellow-400 mx-auto mb-6"></i>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-6">
+                        Pronto a vincere al tavolo da Poker?
+                    </h2>
+                    <p class="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
+                        Unisciti a <span class="brand-name font-bold text-white"></span> oggi stesso. Registrazione in meno di 1 minuto, depositi istantanei e il miglior bonus di benvenuto sul mercato.
+                    </p>
+                    <a href="#" class="brand-cta inline-block w-full md:w-auto px-12 py-5 rounded-2xl font-display font-bold text-2xl text-white bg-brand-accent hover:bg-brand-accentHover transition-all transform hover:-translate-y-1 shadow-[0_0_20px_rgba(244,63,94,0.5)]">
+                        Crea un Account Gratuito
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Methods Banner (Text/Icons Only) -->
+        <section class="py-10 bg-brand-darker border-y border-white/5">
+            <div class="container mx-auto px-4">
+                <p class="text-center text-slate-500 text-sm font-semibold uppercase tracking-widest mb-6">Metodi di Pagamento Sicuri</p>
+                <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 text-slate-400 opacity-70">
+                    <div class="flex items-center gap-2 font-display font-bold text-xl"><i data-lucide="credit-card" class="w-8 h-8"></i> VISA</div>
+                    <div class="flex items-center gap-2 font-display font-bold text-xl"><i data-lucide="credit-card" class="w-8 h-8"></i> Mastercard</div>
+                    <div class="flex items-center gap-2 font-display font-bold text-xl"><i data-lucide="bitcoin" class="w-8 h-8"></i> Bitcoin</div>
+                    <div class="flex items-center gap-2 font-display font-bold text-xl"><i data-lucide="wallet" class="w-8 h-8"></i> Skrill</div>
+                    <div class="flex items-center gap-2 font-display font-bold text-xl"><i data-lucide="wallet-cards" class="w-8 h-8"></i> Neteller</div>
+                    <div class="flex items-center gap-2 font-display font-bold text-xl"><i data-lucide="landmark" class="w-8 h-8"></i> Bonifico</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO Article Section -->
+        <section class="container mx-auto px-4 py-16 text-slate-300 prose prose-invert prose-rose max-w-5xl">
+            
+<style>
+  .n8n-article-content h2 { font-weight: 700 !important; margin: 2.5rem 0 1rem 0 !important; }
+  .n8n-article-content h3 { font-weight: 600 !important; margin: 1.5rem 0 0.75rem 0 !important; }
+  .n8n-article-content p { margin-bottom: 1.25rem !important; line-height: 1.7 !important; }
+  .n8n-article-content ul, .n8n-article-content ol { margin-bottom: 1.25rem !important; padding-left: 1.5rem !important; list-style-type: disc !important; }
+  .n8n-article-content li { margin-bottom: 0.5rem !important; }
+  .n8n-article-content strong { font-weight: 700 !important; }
+  .n8n-article-content table { width: 100% !important; margin: 2rem 0 !important; border-collapse: collapse !important; border: 1px solid #e2e8f0; }
+  .n8n-article-content th, .n8n-article-content td { padding: 0.75rem !important; border: 1px solid #e2e8f0; }
+  .n8n-article-content a { color: #3b82f6 !important; text-decoration: underline !important; font-weight: 600 !important; }
+</style>
+<div class="n8n-article-content">
+  <h2>Introduzione al Gioco d'Azzardo sulla Piattaforma</h2>
+
+<p>La scelta della giusta piattaforma di gioco rappresenta un passo fondamentale per ogni appassionato di carte. Quando si cerca un ambiente sicuro e variegato, <a href="../">cadoola casino poker</a> si distingue per l'ampia selezione di tavoli, la licenza di gioco riconosciuta e un'interfaccia progettata sia per principianti che per giocatori esperti. Questa piattaforma sicura offre numerosi giochi da tavolo con limiti di puntata flessibili, permettendo a tutti di trovare la variante più adatta al proprio budget e stile di gioco.</p>
+
+<p>La combinazione tra tecnologia avanzata e fornitori di software affidabili garantisce un'esperienza fluida e trasparente. Ogni mano viene gestita da sistemi certificati che assicurano equità e casualità nei risultati. La presenza di diverse modalità di gioco consente di passare dalle partite contro il computer ai tavoli con croupier reali, offrendo versatilità e intrattenimento continuo.</p>
+
+<p>L'attenzione alla sicurezza e alla protezione dei dati personali è costante. La crittografia SSL protegge ogni transazione, mentre la licenza Curacao garantisce il rispetto degli standard internazionali. Questi elementi creano un ambiente di gioco affidabile dove concentrarsi esclusivamente sulla strategia e sul divertimento.</p>
+
+<h2><a href="../therd/">Cadoola Casino Poker</a> Online: Varianti e Regole</h2>
+
+<p>Le varianti digitali rappresentano il cuore dell'offerta per chi preferisce giocare contro il software. Exploring the digital tables allows you to experience <a href="../therd/">cadoola casino poker online</a> with various betting limits suited for your budget. Ogni tavolo virtuale utilizza un generatore di numeri casuali (RNG) testato e certificato da laboratori indipendenti, garantendo che ogni distribuzione di carte sia completamente imparziale.</p>
+
+<p>I fornitori di software collaborano con la piattaforma per offrire diverse tipologie di gioco:</p>
+
+<ul>
+<li>Caribbean Stud Poker con jackpot progressivo</li>
+<li>Three Card Poker con puntate bonus</li>
+<li>Pai Gow Poker per chi cerca ritmi più rilassati</li>
+<li>Casino Hold'em contro il banco</li>
+</ul>
+
+<p>La scelta del tavolo giusto dipende da tre fattori principali. Il limite minimo di puntata determina l'accessibilità economica, mentre le regole specifiche influenzano il margine della casa. Alcuni giochi offrono puntate laterali con pagamenti maggiorati, ideali per chi cerca vincite più sostanziose accettando un rischio superiore. Prima di sedersi al tavolo, è consigliabile consultare la sezione delle regole integrate in ogni gioco.</p>
+
+<p>La trasparenza del sistema RNG rappresenta una garanzia fondamentale. I risultati vengono generati in millisecondi attraverso algoritmi complessi impossibili da prevedere o manipolare. Questa tecnologia assicura che ogni sessione sia equa, indipendentemente dall'importo scommesso o dalla durata della partita.</p>
+
+<h3>Cadoola Casino Video Poker</h3>
+
+<p>Il video poker combina la semplicità delle slot machine con la componente strategica dei giochi di carte. For players who prefer fast rounds and automated mechanics, <a href="../therd/">cadoola casino video poker</a> represents the perfect mix between slots and classic card strategies. Questa modalità permette di giocare a ritmo sostenuto, con mani che si concludono in pochi secondi.</p>
+
+<p>Le varianti più popolari includono:</p>
+
+<ul>
+<li>Jacks or Better (RTP fino al 99,54%)</li>
+<li>Deuces Wild con carte jolly</li>
+<li>Joker Poker per combinazioni espanse</li>
+<li>Double Bonus Poker con moltiplicatori</li>
+</ul>
+
+<p>Ogni variante presenta una tabella dei pagamenti specifica che indica le mani vincenti e i rispettivi coefficienti. La strategia ottimale si basa sulla matematica: sapere quali carte tenere e quali scartare può ridurre significativamente il vantaggio del banco. A differenza dei giochi da tavolo tradizionali, qui non esiste un dealer o altri giocatori, solo il software e le proprie decisioni.</p>
+
+<p>Il ritorno al giocatore (RTP) nei video poker è generalmente elevato, spesso superiore al 98% quando si applica la strategia corretta. Questo rende la modalità particolarmente attraente per chi cerca un equilibrio tra divertimento rapido e probabilità favorevoli. Le combinazioni seguono le regole standard del poker, dal tris alla scala reale, con pagamenti proporzionali alla rarità della mano.</p>
+
+<h3><a href="../">Cadoola Casino Texas Hold'em</a> e Regole di Base</h3>
+
+<p>Il Texas Hold'em rappresenta la variante più conosciuta a livello mondiale. When you sit at the virtual tables, playing <a href="../">cadoola casino texas hold'em</a> requires a good understanding of starting hands and betting phases. Nelle versioni offerte dai casinò online, si gioca tipicamente contro il banco nella modalità Casino Hold'em, dove l'obiettivo è ottenere una mano migliore del dealer.</p>
+
+<p>La struttura del gioco segue fasi precise:</p>
+
+<ul>
+<li>Puntata iniziale (ante) obbligatoria prima della distribuzione</li>
+<li>Ricezione di due carte coperte personali</li>
+<li>Apertura del flop con tre carte comuni</li>
+<li>Decisione di continuare con call o abbandonare con fold</li>
+<li>Rivelazione di turn e river (quarta e quinta carta)</li>
+<li>Confronto finale delle mani</li>
+</ul>
+
+<p>La comprensione delle fiches e della gestione del bankroll è essenziale. Ogni decisione dovrebbe considerare la forza della mano iniziale e le probabilità di miglioramento con le carte comuni. Il dealer deve qualificarsi con almeno una coppia di quattro per giocare la propria mano, altrimenti l'ante viene pagata automaticamente.</p>
+
+<p>Le puntate bonus offerte da alcuni tavoli premiano mani particolarmente forti come colore, full o scala reale, indipendentemente dal risultato contro il banco. Questo elemento aggiunge una dimensione strategica supplementare, poiché anche perdendo contro il dealer si possono ottenere pagamenti consistenti grazie alle combinazioni premium.</p>
+
+<h2>L'Esperienza del Casinò dal Vivo</h2>
+
+<p>I tavoli con croupier reali rappresentano l'evoluzione più significativa del gioco online degli ultimi anni. If you miss the brick-and-mortar atmosphere, the <a href="../therd/">cadoola casino poker live</a> rooms stream directly to your screen with professional real-time dealers. La trasmissione avviene in alta definizione da studi professionali attrezzati con telecamere multiple che inquadrano il tavolo da diverse angolazioni.</p>
+
+<p>L'interazione in tempo reale trasforma completamente l'esperienza. Attraverso la chat integrata è possibile comunicare con il croupier dal vivo, che risponde vocalmente creando un'atmosfera sociale simile a quella dei casinò fisici. Altri giocatori si siedono virtualmente allo stesso tavolo, rendendo ogni sessione unica e dinamica.</p>
+
+<p>Le caratteristiche principali del casinò dal vivo includono:</p>
+
+<ul>
+<li>Streaming HD senza interruzioni con audio professionale</li>
+<li>Dealer multilingue disponibili 24 ore su 24</li>
+<li>Tavoli VIP con limiti elevati per high roller</li>
+<li>Statistiche in tempo reale delle mani precedenti</li>
+<li>Possibilità di vedere le carte distribuite fisicamente</li>
+</ul>
+
+<p>La tecnologia OCR (Optical Character Recognition) legge automaticamente le carte distribuite dal dealer, trasformando le azioni fisiche in dati digitali visibili sullo schermo. Questo sistema elimina ogni possibilità di errore umano nella registrazione dei risultati e garantisce trasparenza assoluta.</p>
+
+<p>I tavoli dal vivo operano con orari flessibili, permettendo di trovare sempre una partita in corso. Le puntate variano da limiti accessibili per principianti a tavoli esclusivi con ante minime di centinaia di euro, riservati a giocatori esperti che cercano azione ad alta posta.</p>
+
+<h2>Bonus e Promozioni per i Giocatori</h2>
+
+<p>Il pacchetto di benvenuto offre fino a €800 distribuiti sui primi quattro depositi, più 100 giri gratuiti. Tuttavia, i giocatori di carte devono prestare particolare attenzione ai requisiti di scommessa, poiché i giochi da tavolo contribuiscono in percentuale ridotta al completamento del rollover rispetto alle slot machine.</p>
+
+<p>La struttura tipica prevede:</p>
+
+<ul>
+<li>Primo deposito: 100% fino a €200</li>
+<li>Secondo deposito: 75% fino a €200</li>
+<li>Terzo deposito: 50% fino a €200</li>
+<li>Quarto deposito: 25% fino a €200</li>
+</ul>
+
+<p>Il rollover richiesto è generalmente 35x sul bonus ricevuto. La difficoltà per chi gioca principalmente a poker risiede nella percentuale di contribuzione: mentre le slot contano al 100%, i tavoli di carte contribuiscono spesso solo al 10-20%. Questo significa che per liberare un bonus di €100 giocando esclusivamente a poker, potrebbero essere necessarie scommesse totali fino a €17.500 invece dei €3.500 richiesti con le slot.</p>
+
+<p>Alcune restrizioni importanti da conoscere:</p>
+
+<ul>
+<li>Depositi tramite Skrill e Neteller potrebbero non qualificare per i bonus</li>
+<li>Puntata massima durante il rollover limitata a €5 per mano</li>
+<li>Periodo di validità del bonus tipicamente 30 giorni</li>
+<li>Alcune varianti di poker potrebbero essere escluse completamente</li>
+</ul>
+
+<p>Prima di accettare qualsiasi promozione, è essenziale leggere i termini e condizioni specifici. Alcuni giocatori preferiscono rifiutare i bonus per mantenere piena libertà nelle puntate e nei prelievi, evitando le restrizioni imposte dai requisiti di scommessa.</p>
+
+<h2>Depositi e Prelievi Veloci</h2>
+
+<p>La gestione efficiente del bankroll richiede metodi di pagamento affidabili e rapidi. La piattaforma supporta sia opzioni tradizionali che soluzioni moderne, permettendo a ogni giocatore di scegliere secondo le proprie preferenze e disponibilità geografiche.</p>
+
+<p>I principali metodi di pagamento disponibili includono:</p>
+
+<table>
+<tr>
+<th>Metodo</th>
+<th>Deposito Minimo</th>
+<th>Tempo di Elaborazione</th>
+<th>Commissioni</th>
+</tr>
+<tr>
+<td>Visa/Mastercard</td>
+<td>€20</td>
+<td>Istantaneo</td>
+<td>Nessuna</td>
+</tr>
+<tr>
+<td>Bitcoin</td>
+<td>€20</td>
+<td>15-30 minuti</td>
+<td>Variabile (rete)</td>
+</tr>
+<tr>
+<td>Ethereum</td>
+<td>€20</td>
+<td>10-20 minuti</td>
+<td>Variabile (rete)</td>
+</tr>
+<tr>
+<td>eZeeWallet</td>
+<td>€20</td>
+<td>Istantaneo</td>
+<td>Nessuna</td>
+</tr>
+<tr>
+<td>Ripple</td>
+<td>€20</td>
+<td>5-15 minuti</td>
+<td>Minima</td>
+</tr>
+</table>
+
+<p>Le criptovalute stanno diventando sempre più popolari tra i giocatori online. Offrono vantaggi significativi in termini di privacy, velocità di transazione e assenza di intermediari bancari. I prelievi in Bitcoin o Ethereum vengono generalmente processati entro 24 ore, mentre i metodi tradizionali possono richiedere 3-5 giorni lavorativi.</p>
+
+<p>Il portafoglio elettronico eZeeWallet rappresenta un'alternativa versatile che combina rapidità e sicurezza. Permette di gestire multiple valute e offre prelievi veloci senza passare attraverso il sistema bancario tradizionale. La verifica dell'account è obbligatoria prima del primo Pagamento: e richiede l'invio di documento d'identità e prova di residenza.</p>
+
+<p>I limiti di Pagamento: variano in base allo status del giocatore:</p>
+
+<ul>
+<li>Giocatori standard: fino a €5.000 al mese</li>
+<li>Livello VIP argento: fino a €7.500 al mese</li>
+<li>Livello VIP oro: fino a €10.000 al mese</li>
+<li>Livello VIP platino: limiti personalizzati</li>
+</ul>
+
+<h2>Assistenza Clienti e Risoluzione dei Problemi</h2>
+
+<p>La qualità del supporto determina spesso la soddisfazione complessiva dell'esperienza di gioco. Il servizio di assistenza clienti opera 24 ore su 24, sette giorni su sette, garantendo risposte immediate attraverso diversi canali di comunicazione.</p>
+
+<p>La chat live rappresenta il metodo più veloce per risolvere problemi urgenti. Durante una sessione ai tavoli di poker, eventuali disconnessioni o dubbi sulle regole possono essere chiariti in tempo reale senza abbandonare la partita. Gli operatori sono formati per gestire questioni tecniche, chiarimenti sui bonus e assistenza nei pagamenti.</p>
+
+<p>I canali di supporto disponibili includono:</p>
+
+<ul>
+<li>Chat live disponibile 24/7 con risposta media sotto 2 minuti</li>
+<li>Email per questioni complesse con risposta entro 24 ore</li>
+<li>FAQ dettagliate per risposte immediate ai problemi comuni</li>
+<li>Account manager dedicato per giocatori VIP</li>
+</ul>
+
+<p>La sicurezza della piattaforma si basa su protocolli multipli. La crittografia SSL a 128 bit protegge ogni comunicazione tra il dispositivo del giocatore e i server, rendendo impossibile l'intercettazione di dati sensibili. La licenza Curacao richiede audit regolari e il mantenimento di standard operativi rigorosi.</p>
+
+<p>I giocatori VIP beneficiano di un trattamento prioritario con manager dedicati disponibili via telefono e email diretta. Questo servizio personalizzato include limiti aumentati, prelievi accelerati e bonus su misura basati sulle preferenze di gioco individuali. L'accesso ai livelli VIP avviene automaticamente in base al volume di gioco mensile.</p>
+
+<h2>Confronto tra Casinò Locali e Piattaforme Internazionali</h2>
+
+<table>
+<tr>
+<th>Caratteristica</th>
+<th>Casinò Fisici Locali</th>
+<th>Piattaforme Online Internazionali</th>
+</tr>
+<tr>
+<td>Accessibilità</td>
+<td>Richiede spostamento fisico</td>
+<td>Disponibile 24/7 da qualsiasi dispositivo</td>
+</tr>
+<tr>
+<td>Varietà di Giochi</td>
+<td>Limitata dallo spazio fisico</td>
+<td>Centinaia di varianti disponibili</td>
+</tr>
+<tr>
+<td>Limiti di Puntata</td>
+<td>Spesso minimi più alti</td>
+<td>Da €0,10 a migliaia di euro</td>
+</tr>
+<tr>
+<td>Bonus</td>
+<td>Rari o assenti</td>
+<td>Pacchetti di benvenuto e promozioni regolari</td>
+</tr>
+<tr>
+<td>Privacy</td>
+<td>Gioco in pubblico</td>
+<td>Completa riservatezza da casa</td>
+</tr>
+<tr>
+<td>Velocità di Gioco</td>
+<td>Dipende dal ritmo del tavolo</td>
+<td>Controllo personale del ritmo</td>
+</tr>
+</table>
+
+<h2>Conclusioni sulla Proposta di Gioco</h2>
+
+<p>L'analisi approfondita rivela un'offerta completa che soddisfa diverse tipologie di giocatori. Dalle varianti rapide del video poker alle sfide strategiche del Texas Hold'em, passando per l'atmosfera immersiva dei tavoli dal vivo, ogni appassionato può trovare la modalità più adatta alle proprie preferenze. La combinazione tra sicurezza certificata, metodi di pagamento moderni e assistenza clienti sempre disponibile crea un ambiente affidabile per il gioco responsabile.</p>
+
+<p>La flessibilità nei limiti di puntata permette sia ai principianti di iniziare con investimenti minimi, sia agli high roller di trovare tavoli con poste significative. I sistemi RNG certificati e la trasparenza dei tavoli live garantiscono equità in ogni sessione. Per chi cerca un'esperienza completa nel mondo del poker digitale, i cadoola casino tavoli poker rappresentano una destinazione che bilancia intrattenimento, sicurezza e varietà in un'unica piattaforma accessibile.</p>
+</div>
+
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-16 bg-white/5">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div id="faq" class="space-y-6">
+                    <h2 class="font-display text-3xl font-bold text-white text-center mb-10">FAQ</h2>
+                    <!-- Backend will inject FAQ items here. Styling context provided. -->
+                    <div class="text-slate-300 space-y-4">
+                        
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(0)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">Quali varianti di poker sono disponibili sulla piattaforma?</h3>
+        <svg id="faq-icon-0" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-0" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        La selezione include Casino Hold'em, Caribbean Stud, Three Card Poker, video poker in multiple versioni (Jacks or Better, Deuces Wild) e tavoli live con croupier reali. Ogni variante offre regole specifiche e limiti di puntata adatti a diversi livelli di esperienza.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(1)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">I bonus di benvenuto si applicano ai giochi di carte?</h3>
+        <svg id="faq-icon-1" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-1" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Sì, ma con limitazioni importanti. I giochi da tavolo contribuiscono tipicamente solo al 10-20% al completamento dei requisiti di scommessa rispetto al 100% delle slot. È essenziale leggere attentamente i termini prima di accettare qualsiasi promozione per comprendere l'impatto effettivo sul proprio stile di gioco.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(2)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">Quanto tempo richiedono i prelievi dopo una vincita?</h3>
+        <svg id="faq-icon-2" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-2" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        I tempi variano in base al metodo scelto. Le criptovalute vengono processate entro 24 ore, mentre carte di credito e bonifici bancari richiedono 3-5 giorni lavorativi. I giocatori VIP beneficiano di elaborazione prioritaria con tempi ridotti. La prima richiesta richiede verifica dell'identità che può aggiungere 1-2 giorni.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(3)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">Come posso verificare che i giochi siano equi?</h3>
+        <svg id="faq-icon-3" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-3" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Tutti i giochi RNG sono certificati da laboratori indipendenti che testano l'algoritmo di generazione casuale. Le percentuali di ritorno al giocatore (RTP) sono pubblicate per ogni gioco. I tavoli live trasmettono in diretta ogni azione del dealer, eliminando qualsiasi possibilità di manipolazione grazie alla tecnologia OCR che legge fisicamente le carte distribuite.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(4)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">Posso giocare da dispositivo mobile?</h3>
+        <svg id="faq-icon-4" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-4" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Assolutamente sì. La piattaforma è completamente ottimizzata per smartphone e tablet, sia iOS che Android. Non è necessario scaricare app dedicate poiché tutti i giochi funzionano attraverso browser web mobile. L'interfaccia si adatta automaticamente alle dimensioni dello schermo mantenendo piena funzionalità e qualità grafica.
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darker pt-16 pb-8 border-t border-white/10">
+        <div class="container mx-auto px-4">
+            
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-12 border-b border-white/10 pb-12">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-2 group">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-gradientStart to-brand-gradientEnd flex items-center justify-center">
+                        <i data-lucide="spade" class="text-white w-5 h-5"></i>
+                    </div>
+                    <span class="font-display font-bold text-xl tracking-tight text-white brand-logo-text"></span>
+                </a>
+
+                <!-- Footer Links -->
+                <div class="flex flex-wrap justify-center gap-6 text-sm text-slate-400">
+                    <a href="#" class="hover:text-white transition-colors">Termini e Condizioni</a>
+                    <a href="#" class="hover:text-white transition-colors">Informativa Privacy</a>
+                    <a href="#" class="hover:text-white transition-colors">Gioco Responsabile</a>
+                    <a href="#" class="hover:text-white transition-colors">Contattaci</a>
+                    <a href="#" class="hover:text-white transition-colors">Programma Affiliati</a>
+                </div>
+            </div>
+
+            <!-- Compliance & Description -->
+            <div class="flex flex-col items-center text-center space-y-6 max-w-4xl mx-auto">
+                
+                <div class="w-12 h-12 rounded-full border-2 border-slate-500 flex items-center justify-center text-slate-500 font-bold text-xl">
+                    18+
+                </div>
+
+                <p class="text-xs text-slate-500 leading-relaxed">
+                    Sito di confronto indipendente.
+                </p>
+
+                <p class="text-xs text-slate-500 leading-relaxed">
+                    Il gioco d'azzardo può creare dipendenza. Gioca responsabilmente. 18+
+                </p>
+
+                <p class="text-sm text-slate-600 mt-8">
+                    &copy; 2026 <span class="brand-name"></span>. Tutti i diritti riservati.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <!-- REQUIRED JAVASCRIPT DYNAMIC INJECTION -->
+    <script>
+      const casinos = [{"rank":1,"name":"Cadoola Casino","rating":4.7,"bonus":"Fino a €800 + 100 Giri Gratis","highlights":["Oltre 50 tavoli da poker live","Supporto criptovalute","Prelievi in 24 ore"],"pros":["Ampia selezione di varianti poker","Chat live 24/7 in italiano","Licenza Curacao valida"],"cons":["Requisiti di scommessa elevati per giochi da tavolo"],"payments":"Bitcoin, Visa, Mastercard, Ethereum, eZeeWallet","link":"https://track-cr.com/lsBKM?sub_id_9=cadoola.casino","url":"https://track-cr.com/lsBKM?sub_id_9=cadoola.casino","href":"https://track-cr.com/lsBKM?sub_id_9=cadoola.casino","payout":"Immediato","payout_time":"Immediato","payoutTime":"Immediato","withdrawal_time":"Immediato","withdrawal":"Immediato","speed":"Immediato","payoutSpeed":"Immediato","payout_speed":"Immediato","fast_payout":"Immediato","time":"Immediato","highlight":"Oltre 50 tavoli da poker live","features":["Oltre 50 tavoli da poker live"],"logo":null}];
+      document.addEventListener('DOMContentLoaded', () => {
+        if (casinos && casinos.length > 0) {
+          const brand = casinos[0]; // Use the primary brand
+          
+          // Inject affiliate links into ALL action buttons
+          document.querySelectorAll('.brand-cta').forEach(btn => {
+            if (brand.url) btn.href = brand.url;
+          });
+          
+          // Inject brand name into UI elements (TEXT ONLY)
+          document.querySelectorAll('.brand-name').forEach(el => {
+            el.textContent = brand.name;
+          });
+          
+          // Inject bonus text
+          document.querySelectorAll('.brand-bonus').forEach(el => {
+            el.textContent = brand.bonus;
+          });
+          
+          // Inject text-based logo (simulate logo with typography/CSS)
+          document.querySelectorAll('.brand-logo-text').forEach(el => {
+            el.textContent = brand.name;
+          });
+        }
+      });
+    </script>
+
+<script>
+  window.toggleFaq = function(index) {
+    var content = document.getElementById('faq-content-' + index);
+    var icon = document.getElementById('faq-icon-' + index);
+    
+    if (content) {
+      content.classList.toggle('hidden');
+      if (icon) {
+        icon.style.transform = content.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+      }
+    }
+  };
+</script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    try {
+      const casinosData = [{"rank":1,"name":"Cadoola Casino","rating":4.7,"bonus":"Fino a €800 + 100 Giri Gratis","highlights":["Oltre 50 tavoli da poker live","Supporto criptovalute","Prelievi in 24 ore"],"pros":["Ampia selezione di varianti poker","Chat live 24/7 in italiano","Licenza Curacao valida"],"cons":["Requisiti di scommessa elevati per giochi da tavolo"],"payments":"Bitcoin, Visa, Mastercard, Ethereum, eZeeWallet","link":"https://track-cr.com/lsBKM?sub_id_9=cadoola.casino","url":"https://track-cr.com/lsBKM?sub_id_9=cadoola.casino","href":"https://track-cr.com/lsBKM?sub_id_9=cadoola.casino","payout":"Immediato","payout_time":"Immediato","payoutTime":"Immediato","withdrawal_time":"Immediato","withdrawal":"Immediato","speed":"Immediato","payoutSpeed":"Immediato","payout_speed":"Immediato","fast_payout":"Immediato","time":"Immediato","highlight":"Oltre 50 tavoli da poker live","features":["Oltre 50 tavoli da poker live"],"logo":null}];
+      
+      if (casinosData && casinosData.length > 0) {
+        const targetLink = casinosData[0].url || casinosData[0].link || '#';
+        
+        if (targetLink !== '#') {
+          // Ищем кнопки с целевым классом
+          document.querySelectorAll('.brand-cta').forEach(btn => {
+            btn.href = targetLink;
+            btn.target = '_blank';
+            btn.rel = 'nofollow noopener';
+          });
+          
+          // Ищем пустые заглушки
+          document.querySelectorAll('a').forEach(link => {
+             const href = link.getAttribute('href');
+             if (href === '#' || !href || href.includes('javascript:void')) {
+                link.href = targetLink;
+                link.target = '_blank';
+                link.rel = 'nofollow noopener';
+             }
+          });
+        }
+      }
+    } catch(e) { console.error('Ошибка вставки аффилиейт ссылок:', e); }
+  });
+</script>
+
+</body>
+</html>
